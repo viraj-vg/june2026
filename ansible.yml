@@ -2,4 +2,4 @@ user:
   id: 1001
   name: "Jane Doe"
   role: "Admin"
-  active: true
+  active: false 
