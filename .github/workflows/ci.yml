@@ -1,0 +1,15 @@
+name: Hello World
+
+on:
+  push: 
+    branches:
+      - main
+
+jobs:
+  hello-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Testing the hello world script
+        run: echo "Welcome to the first job"
+      
